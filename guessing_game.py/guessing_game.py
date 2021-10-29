@@ -15,7 +15,7 @@ print("In this game, you must choose a number between 10-30.")
 
 print("----------------------------")
 
-print("Ready? BEGIN!")
+print("BEGIN!")
 
 print("----------------------------")
 
@@ -26,16 +26,12 @@ answer = number1
 
 
 
-
-
-print("The choosen number is", answer)
-
 print("----------------------------")
 
 
 if answer == max1:
     print('You Win the game!')
 else:
-    print("You lost! The answer was")
+    print("You lost! The answer was", answer)
 print("----------------------------")
 input("Press enter to exit")
