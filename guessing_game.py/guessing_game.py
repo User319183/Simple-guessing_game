@@ -50,7 +50,8 @@ while True: #creates an endless loop
 
 
     if answer == max1:
-        print('You Win the game!')
+        print(f"""You Win the game!
+        \nYou chose {max1} and I chose {answer} """)
 
         user_wins+=1
         print("You have "+str(user_wins)+" wins")
@@ -60,7 +61,8 @@ while True: #creates an endless loop
 
 
     else:
-        print("You lost! The answer was", answer)
+        print(f"""You lost! 
+        \nI chose {answer} and you chose {max1}""")
 
         computer_wins+=1
         print("The computer has "+str(computer_wins)+" win(s)")
